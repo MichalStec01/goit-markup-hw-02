@@ -15,6 +15,7 @@
 body {
     font-family: var(--first-font);
     color: var(--first-color);
+    background-color: var(--first-background-color);
 }
 ul {
     list-style-type: var(--list-style-type);
@@ -35,14 +36,26 @@ ul {
     cursor:var(--first-cursor);
     color:var(--third-color);
 }
+.contact-link:hover,
+.contact-link:focus {
+    cursor:var(--first-cursor);
+    color:var(--third-color);
+}
 .link,
-.address-link {
+.address-link,
+.contact-link {
     text-decoration: none;
     font-size: 14px;
 }
+.link {
+    color:var(--first-color)
+}
+.contact-link {
+    color:var(--second-color);
+}
 .address-link {
     color:var(--fourth-color);
-    line-height: 24px;
+      line-height: 1.714;
 }
 .address {
     font-style: normal;
@@ -66,8 +79,12 @@ span {
 .service-desc {
     color:var(--second-color);
 }
+.alt {
+    line-height: 1.875;
+}
 .description {
     font-size: 18px;
+    line-height: 2;
 }
 .btn {
     font-size: 16px;
@@ -85,6 +102,9 @@ h2 {
 .name {
     font-size: 16px;
     font-weight: 500;
+}
+#header{
+    background-color: var(--fourth-color);
 }
 #footer{
     background-color: var(--second-background-color);
