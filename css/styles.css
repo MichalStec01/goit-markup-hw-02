@@ -9,8 +9,56 @@
     --second-background-color: #2F303A;
     --third-background-color: #F5F4FA;
     --fourth-background-color: #ffffff;
+    --first-cursor: pointer;
 }
 body {
     font-family: var(--first-font);
     color: var(--first-color);
+}
+.btn:hover,
+.btn:focus {
+    cursor: var(--first-cursor);
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+}
+.link:hover,
+.link:focus {
+    cursor: var(--first-cursor);
+    color:var(--third-color);
+}
+.link {
+    text-decoration: none;
+    font-size: 14px;
+}
+.address {
+    font-style: normal;
+}
+.logo {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+.alt,
+.service-desc {
+    color:var(--second-color);
+}
+.description {
+    font-size: 18px;
+}
+.btn {
+    font-size: 16px;
+}
+.title {
+    font-size: 44px;
+}
+.service-name,
+.service-desc {
+    font-size: 14px;
+}
+h2 {
+    font-size: 36px;
+}
+.name {
+    font-size: 16px;
+    font-weight: 500;
 }
