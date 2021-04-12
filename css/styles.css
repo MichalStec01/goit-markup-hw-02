@@ -91,10 +91,18 @@ span {
 }
 .title {
     font-size: 44px;
+    color:var(--fourth-color);
+    text-align: center;
 }
 .service-name,
 .service-desc {
     font-size: 14px;
+}
+.service-name {
+    line-height: 1.172;
+}
+.service-desk {
+    line-height: 1.714;
 }
 h2 {
     font-size: 36px;
@@ -102,12 +110,17 @@ h2 {
 .name {
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.171;
 }
 #header{
     background-color: var(--fourth-color);
 }
-#footer{
+#footer,
+#hero{
     background-color: var(--second-background-color);
     height: 252px;
+}
+#team{
+    background-color: var(--third-background-color);
 }
 
