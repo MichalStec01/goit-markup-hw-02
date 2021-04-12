@@ -10,10 +10,14 @@
     --third-background-color: #F5F4FA;
     --fourth-background-color: #ffffff;
     --first-cursor: pointer;
+    --list-style-type: none;
 }
 body {
     font-family: var(--first-font);
     color: var(--first-color);
+}
+ul {
+    list-style-type: var(--list-style-type);
 }
 .btn:hover,
 .btn:focus {
@@ -38,14 +42,25 @@ body {
 }
 .address-link {
     color:var(--fourth-color);
+    line-height: 24px;
 }
 .address {
     font-style: normal;
 }
-.logo {
+.logo,
+.header-logo {
     text-decoration: none;
     font-size: 26px;
     font-weight: 700;
+}
+.logo {
+    color: var(--fourth-color);
+}
+.header-logo {
+    color:var(--first-color);
+}
+span {
+    color:var(--third-color);
 }
 .alt,
 .service-desc {
