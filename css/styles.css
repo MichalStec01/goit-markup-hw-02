@@ -26,9 +26,18 @@ body {
     cursor: var(--first-cursor);
     color:var(--third-color);
 }
-.link {
+.address-link:hover,
+.address-link:focus {
+    cursor:var(--first-cursor);
+    color:var(--third-color);
+}
+.link,
+.address-link {
     text-decoration: none;
     font-size: 14px;
+}
+.address-link {
+    color:var(--fourth-color);
 }
 .address {
     font-style: normal;
@@ -62,3 +71,8 @@ h2 {
     font-size: 16px;
     font-weight: 500;
 }
+#footer{
+    background-color: var(--second-background-color);
+    height: 252px;
+}
+
